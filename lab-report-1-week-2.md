@@ -33,6 +33,7 @@ Here is a list of some helpful command to use:
 ![commandLine](commandLine2.png)
 ---
 ## Moving Files with `scp`
+
 ---
 ## Setting an SSH Key
 ---
