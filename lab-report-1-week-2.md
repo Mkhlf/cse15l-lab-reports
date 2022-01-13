@@ -28,9 +28,9 @@ Enter your password, and you should see something like this:
 
 Here is a list of some helpful command to use:
 
-1. `cd A` helps you change your directory to *A*
+1. `cd A` helps you change your directory to **A**
 2. `ls` shows all the file in this directory
-3. `touch A` if the file *A* exists it updates the update/modified date of the file and if the file doesn't exist it will create it for you !  
+3. `touch A` if the file **A** exists it updates the update/modified date of the file and if the file doesn't exist it will create it for you !  
 4. `cp A B` copies files from A to B
 ![commandLine](commandLine2.png)
 
