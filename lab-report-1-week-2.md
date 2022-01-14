@@ -49,8 +49,8 @@ Here is a list of some helpful command to use:
 
 1. `cd A` helps you change your directory to **A**.
 2. `ls` shows all the file in this directory.
-3. `touch A` if the file **A** exists it updates the update/modified date of the file and if the file doesn't exist it will create it for you \!  
-4. `cp A B` copies files from A to B.
+3. `touch A` if the file **A** exists it updates the update/modified date of the file and if the file doesn't exist it will create it for you\!  
+4. `cp A B` copies files from **A** to **B**.
 5. CTRL+D or `exit` to exit the server you're connected to.
 
 ![commandLine](lab-report-1-pics/commandLine2.png)
@@ -65,7 +65,7 @@ Here is an example of how to use it:
 
 ## Setting an SSH Key:
 
-This step will help you to avoid typing down your passowrd when running ```ssh `or` scp```.
+This step will help you avoid typing down the passowrd when running ```ssh `or` scp```.
 Start by running `ssh-keygen` on your device, which will creates two files *public key*(`id_rsa.pub`) and *privte key*(`id_rsa`) stored in `.ssh`. 
 
 ![sshKey](lab-report-1-pics/sshkey1.png)
@@ -74,12 +74,12 @@ Lastly, make `.ssh` file in your server (using `mkdir` command) and copy the pub
 
 ## Optimizing Remote Running:
 
-To make running commands on the server a bit easier and faster you can do like this:
+To make running commands on the server a bit easier and faster you can do the following:
 
 ```
 $ssh cs15lwi22zz@ieng6.ucsd.edu "cd"
 ```
 
-Also you can do multiple commands at the same by using `;`
+Also you can do multiple commands at the same time by using `;`
 
 ![runningCommandsEasier](lab-report-1-pics/runningCommandsEasier.png)
