@@ -1,11 +1,19 @@
 # Lab Report 1:  Remote Access using VScode
+### Table of content:
+- [Installing VScode](#installing-vscode)
+- [Remotely Connecting](#remotely-connecting)
+- [Moving Files with `scp`](#moving-files-with-scp)
+- [Setting an SSH Key](#setting-an-ssh-key)
+- [Optimizing Remote Running](#optimizing-remote-running)
+
+---
 
 ## Installing VScode:
 
 To install VScode, start by visiting [https://code.visualstudio.com/download](https://code.visualstudio.com/download), then download the appropriate version. When you open the app, you should see something similar to this.
 ![image](vscode.png)
 
-## Remotely Connecting
+## Remotely Connecting:
 
 Start by opening the terminal, either in VScode or your own command line. 
 ![command line](commandLine.png) 
@@ -24,7 +32,7 @@ Password:
 Enter your password, and you should see something like this:
 ![ssh1](ssh1.png) 
 
-## Trying Some Commands
+## Trying Some Commands:
 
 Here is a list of some helpful command to use:
 
@@ -36,7 +44,7 @@ Here is a list of some helpful command to use:
 
 ![commandLine](commandLine2.png)
 
-## Moving Files with `scp`
+## Moving Files with `scp`:
 
 We will be using `scp` command to copy files from the client, i.e., your desktop, to the server.
 
@@ -44,7 +52,7 @@ Here is an example of how to use it:
 
 ![scp](scp.png)
 
-## Setting an SSH Key
+## Setting an SSH Key:
 
 This step will help you to avoid typing down your passowrd when running ```ssh `or` scp```.
 Start by running `ssh-keygen` on your device, which will creates two files *public key*(`id_rsa.pub`) and *privte key*(`id_rsa`) stored in `.ssh`. 
@@ -53,7 +61,7 @@ Start by running `ssh-keygen` on your device, which will creates two files *publ
 
 Lastly, make `.ssh` file in your server (using `mkdir` command) and copy the public key to it.
 
-## Optimizing Remote Running
+## Optimizing Remote Running:
 
 To make running commands on the server a bit easier and faster you can do like this:
 
