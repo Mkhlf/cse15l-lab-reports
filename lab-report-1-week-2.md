@@ -1,4 +1,8 @@
-# Lab Report 1:  Remote Access using VScode
+
+#### Lab Report 1
+
+# Remote Access
+
 ### Table of content:
 - [Installing VScode](#installing-vscode)
 - [Remotely Connecting](#remotely-connecting)
@@ -11,6 +15,7 @@
 ## Installing VScode:
 
 To install VScode, start by visiting [https://code.visualstudio.com/download](https://code.visualstudio.com/download), then download the appropriate version. When you open the app, you should see something similar to this.
+
 ![image](vscode.png)
 
 ## Remotely Connecting:
@@ -30,6 +35,7 @@ Enter yes, then it will asks you about the password.
 Password: 
 ```
 Enter your password, and you should see something like this:
+
 ![ssh1](ssh1.png) 
 
 ## Trying Some Commands:
