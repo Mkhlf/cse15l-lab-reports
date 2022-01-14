@@ -25,15 +25,19 @@ Start by opening the terminal, either in VScode or your own command line.
 Then, type `$ ssh A` and replace **A** with your address, e.g., cs15lwi22zz@ieng6.ucsd.edu.
 
 If this was your frist time to connect, you might see this massage: 
+
 ```
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```
+
 Enter yes, then it will asks you about the password.
+
 ```
 Password: 
 ```
+
 Enter your password, and you should see something like this:
 
 ![ssh1](ssh1.png) 
