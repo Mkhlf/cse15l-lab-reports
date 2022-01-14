@@ -4,11 +4,13 @@
 # Remote Access
 
 ### Table of content:
-- [Installing VScode](#installing-vscode)
-- [Remotely Connecting](#remotely-connecting)
-- [Moving Files with `scp`](#moving-files-with-scp)
-- [Setting an SSH Key](#setting-an-ssh-key)
-- [Optimizing Remote Running](#optimizing-remote-running)
+
+  - [Installing VScode:](#installing-vscode)
+  - [Remotely Connecting:](#remotely-connecting)
+  - [Trying Some Commands:](#trying-some-commands)
+  - [Moving Files with `scp`:](#moving-files-with-scp)
+  - [Setting an SSH Key:](#setting-an-ssh-key)
+  - [Optimizing Remote Running:](#optimizing-remote-running)
 
 ---
 
