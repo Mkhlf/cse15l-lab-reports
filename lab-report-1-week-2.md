@@ -46,4 +46,21 @@ Here is an example of how to use it:
 
 ## Setting an SSH Key
 
+This step will help you to avoid typing down your passowrd when running ```ssh `or` scp```.
+Start by running `ssh-keygen` on your device, which will creates two files *public key*(`id_rsa.pub`) and *privte key*(`id_rsa`) stored in `.ssh`. 
+
+![sshKey](sshkey1.png)
+
+Lastly, make `.ssh` file in your server (using `mkdir` command) and copy the public key to it.
+
 ## Optimizing Remote Running
+
+To make running commands on the server a bit easier and faster you can do like this:
+
+```
+$ssh cs15lwi22zz@ieng6.ucsd.edu "cd"
+```
+
+Also you can do multiple commands at the same by using `;`
+
+![runningCommandsEasier](runningCommandsEasier.png)
