@@ -17,7 +17,7 @@
 
 To install VScode, start by visiting [https://code.visualstudio.com/download](https://code.visualstudio.com/download), then download the appropriate version. When you open the app, you should see something similar to this.
 
-![image](vscode.png)
+![image](lab-report-1-pics/vscode.png)
 
 ## Remotely Connecting:
 
@@ -41,7 +41,7 @@ Password:
 
 Enter your password, and you should see something like this:
 
-![ssh1](ssh1.png) 
+![ssh1](lab-report-1-pics/ssh1.png) 
 
 ## Trying Some Commands:
 
@@ -53,7 +53,7 @@ Here is a list of some helpful command to use:
 4. `cp A B` copies files from A to B.
 5. CTRL+D or `exit` to exit the server you're connected to.
 
-![commandLine](commandLine2.png)
+![commandLine](lab-report-1-pics/commandLine2.png)
 
 ## Moving Files with `scp`:
 
@@ -61,14 +61,14 @@ We will be using `scp` command to copy files from the client, i.e., your desktop
 
 Here is an example of how to use it:
 
-![scp](scp.png)
+![scp](lab-report-1-pics/scp.png)
 
 ## Setting an SSH Key:
 
 This step will help you to avoid typing down your passowrd when running ```ssh `or` scp```.
 Start by running `ssh-keygen` on your device, which will creates two files *public key*(`id_rsa.pub`) and *privte key*(`id_rsa`) stored in `.ssh`. 
 
-![sshKey](sshkey1.png)
+![sshKey](lab-report-1-pics/sshkey1.png)
 
 Lastly, make `.ssh` file in your server (using `mkdir` command) and copy the public key to it.
 
@@ -82,4 +82,4 @@ $ssh cs15lwi22zz@ieng6.ucsd.edu "cd"
 
 Also you can do multiple commands at the same by using `;`
 
-![runningCommandsEasier](runningCommandsEasier.png)
+![runningCommandsEasier](lab-report-1-pics/runningCommandsEasier.png)
