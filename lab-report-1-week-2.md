@@ -87,4 +87,4 @@ $ssh cs15lwi22zz@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
 ```
 ![runningCommandsEasier](lab-report-1-pics/runningCommandsEasier.png)
 
-By doing so you can save some time when you want to run your code again, as you can use the up-arrow to find that line then re-run it. For instance, it took me about 45 keystrokes to remotely access the server, compile, and run "WhereAmI.java"; however, when I used the up-arrow method, mentioned above, it took 1 keystroke to compile and run the same file from the server!
+By doing so you can save some time when you want to run your code again, as you can use the up-arrow to find that line then re-run it. For instance, it took me about 45 keystrokes to remotely access the server, compile, and run "WhereAmI.java"; however, when I used the up-arrow method, mentioned above, it took 1 keystroke to compile and run the same file from the server. Moreover you can use the same method to copy the file from your local machine to the server and when ever you made changes to the local cpoy you can use the up-arrow to copy the file to server, then use the up-arrow again to compile and run, which would take 3 - 5 keystrokes!
