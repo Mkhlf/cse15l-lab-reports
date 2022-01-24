@@ -87,4 +87,4 @@ $ssh cs15lwi22zz@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
 ```
 ![runningCommandsEasier](lab-report-1-pics/runningCommandsEasier.png)
 
-By doing so you can save some time when you want to run your code, as you can use the up-arrow to find that line then run it. For instance, it took me about 45 keystrokes to remotely access the server, compile, and run "WhereAmI.java"; however, when I used the upper-arrow method it took 1 keystroke to compile and run the same file from the server!
+By doing so you can save some time when you want to run your code again, as you can use the up-arrow to find that line then re-run it. For instance, it took me about 45 keystrokes to remotely access the server, compile, and run "WhereAmI.java"; however, when I used the up-arrow method, mentioned above, it took 1 keystroke to compile and run the same file from the server!
