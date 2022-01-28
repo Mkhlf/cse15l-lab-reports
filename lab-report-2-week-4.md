@@ -4,12 +4,13 @@
 ### Table of content:
 
   - [Overview](#overview)
-  - [Case #1](#Case-\#1)
-  - [Case #2](#Case-\#2)
-  - [Case #3](#Case-\#3)
+  - [Case \#1:](#case-1)
+  - [Case \#2:](#case-2)
+  - [Case \#3:](#case-3)
+
 ---
 ## Overview
-### This lab report will cover some of testes me and my group used to test the code provded to us [`MarkdownPrase`](https://github.com/ucsd-cse15l-w22/markdown-parse)
+### This lab report will cover some of testes me and my group used to test the code provded [`MarkdownPrase`](https://github.com/ucsd-cse15l-w22/markdown-parse)
 
 Using this as a starter Code:
 ```
@@ -52,9 +53,7 @@ public class MarkdownParse {
 [![image](lab-report-2-pics/Case_One.png)](https://github.com/Mkhlf/markdown-parse/commit/9046bc5270d453df84ef0a021d05c04f05c04859)
 
 
-When running this [test-file](https://github.com/Mkhlf/markdown-parse/blob/main/test-ending-text.md). 
-
-I got the following output: 
+When running this [test-file](https://github.com/Mkhlf/markdown-parse/blob/main/test-ending-text.md) I get the following output: 
 
 ```
 alkhalmr@Mohammads-MacBook-Air markdown-parse % java MarkdownParse test-file-ending-text.md
@@ -82,9 +81,7 @@ The symptom here is trying to access some part of the momery, which does not exi
 [![image](lab-report-2-pics/Case_Two.png)](https://github.com/Mkhlf/markdown-parse/commit/9a9fc400b281c8db8a18160cfeced37f173b4521)
 
 
-When running this [test-file](https://github.com/Mkhlf/markdown-parse/blob/main/test-parens-inside-link.md). 
-
-I got the following output: 
+When running this [test-file](https://github.com/Mkhlf/markdown-parse/blob/main/test-parens-inside-link.md) I get the following output: 
 
 ```
 alkhalmr@Mohammads-MacBook-Air markdown-parse % java MarkdownParse  test-parens-inside-link.md
@@ -104,9 +101,7 @@ The symptom here is not printing an Invalid link. This occurs when there is "\(\
 [![image](lab-report-2-pics/Case_Three.png)](https://github.com/Mkhlf/markdown-parse/commit/9d560031638d5a3779633e62447dec109b4e4d4a?diff=unified)
 
 
-When running this [test-file](https://github.com/Mkhlf/markdown-parse/blob/main/test-unclosed-paren.md). 
-
-I got the following output: 
+When running this [test-file](https://github.com/Mkhlf/markdown-parse/blob/main/test-unclosed-paren.md) I get the following output: 
 
 ```
 alkhalmr@Mohammads-MacBook-Air markdown-parse % java MarkdownParse test-unclosed-open-bracket.md
@@ -120,4 +115,4 @@ alkhalmr@Mohammads-MacBook-Air markdown-parse % java MarkdownParse test-unclosed
 [https://example.com, https://example.com/2]
 ```
 
-The symptom here is printing multiple line invalid link. This occurs when there is an open linkl "\(" that was not closed. To solve this I added a function to look at the file line by line only while keeping the same logic.
+The symptom here is printing multiple line invalid link. This occurs when there is an open link's "\(" that was not closed. To solve this I added a function to look at the file line by line only, insead of looking at it fully, while keeping the same logic.
