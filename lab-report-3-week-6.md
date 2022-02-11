@@ -2,16 +2,10 @@
 # Streamlining ssh Configuration
 
 
-
-<div class="center">
-    <li><a href="#streamlining-ssh-configuration">Streamlining ssh Configuration</a></li>
-    <li><a href="#sshconfig"><code>.ssh/config</code></a></li>
-    <li><a href="#logging-in">Logging in</a></li>
-    <li><a href="#copying-a-file">Copying a file</a></li>
-    
-</div>
-
-
+- [Streamlining ssh Configuration](#streamlining-ssh-configuration)
+  - [```.ssh/config```](#sshconfig)
+  - [Logging in](#logging-in)
+  - [Copying a file](#copying-a-file)
 
 ---
 
