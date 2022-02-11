@@ -1,5 +1,10 @@
+
+<center>
+
 ### Lab Report 2
 # When Tests Accumulate
+
+</center>
 
 ### Table of content:
 
@@ -116,3 +121,11 @@ alkhalmr@Mohammads-MacBook-Air markdown-parse % java MarkdownParse test-unclosed
 ```
 
 The symptom here is printing multiple line invalid link. This occurs when there is an open link's "\(" that was not closed. To solve this I added a function to look at the file line by line only, insead of looking at it fully, while keeping the same logic.
+
+---
+<center>
+
+Mohammad Alkhalifah Lab's for [CSE15 lab](https://ucsd-cse15l-w22.github.io/)
+
+[Home page](index.md)
+ </center>
