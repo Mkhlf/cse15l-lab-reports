@@ -1,27 +1,30 @@
 ### Lab Report 3
 # Streamlining ssh Configuration
 
-### Table of content:
+- [Streamlining ssh Configuration](#streamlining-ssh-configuration)
+    - [```.ssh/config```](#sshconfig)
+    - [Logging in](#logging-in)
+    - [Copying a file](#copying-a-file)
 
-  
 
 ---
-## ```.ssh/config```
+
+### ```.ssh/config```
 
 Here is the content of my ```.ssh/config```:
 
-[image][lab-report-3-pics/sshConfig_content.png]
+![image](lab-report-3-pics/sshConfig_content.png)
 
-I did edit it using nano editor: 
+I edited it using nano editor: 
 
-[image][lab-report-3-pics/editingNano.png]
-
-
-## Logging in:
-
-[image][lab-report-3-pics/logIn.png]
-
-## Copying a file:
+![image](lab-report-3-pics/editingNano.png)
 
 
-[image][lab-report-3-pics/copying.png]
+### Logging in
+
+![image](lab-report-3-pics/logIn.png)
+
+### Copying a file
+
+
+![image](lab-report-3-pics/copying.png)
