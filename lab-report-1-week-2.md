@@ -1,13 +1,3 @@
- <style>
-       
-     .center {
-        text-align: left;
-        margin: auto;
-        width: 50%;
-        padding: 20px;
-}
-    </style>
-
 <center>
 
 ### Lab Report 1
