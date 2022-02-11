@@ -1,21 +1,5 @@
- <style>
-       
-     .center {
-        text-align: left;
-        margin: auto;
-        width: 50%;
-        padding: 20px;
-        
-}
-    </style>
-
-
-<center>
-
 ### Lab Report 3
 # Streamlining ssh Configuration
-
-</center>
 
 
 
@@ -30,7 +14,6 @@
 
 
 ---
-<center>
 
 ## ```.ssh/config```
 
@@ -44,8 +27,8 @@ I edited it using nano editor:
 
 
 ## Logging in
-
 ![image](lab-report-3-pics/logIn.png)
+
 
 
 ## Copying a file
@@ -60,4 +43,3 @@ I edited it using nano editor:
 Mohammad Alkhalifah Lab's for [CSE15 lab](https://ucsd-cse15l-w22.github.io/)
 
 [Home page](index.md)
- </center>
