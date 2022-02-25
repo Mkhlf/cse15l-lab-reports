@@ -72,7 +72,7 @@ java.lang.AssertionError: expected:<[`google.com, google.com, ucsd.edu]> but was
         at MarkdownParseTest.testSnippet1(MarkdownParseTest.java:65)
 ```
 
-Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
+Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 ?
 
 Based on the snippet above, only one case does not work correctly: when the open backticks and the close are not both within the brackets my code does not work. To fix this, I think we can check if I am starting a inline code or code block at any point of the text. Then, I should ignore anything within that block of characrters. However, implementing that is quite complicated as you have to acount for backticks within in line code and for block of codes as well, while also account for not closing in line code or code block.
 
@@ -131,9 +131,9 @@ java.lang.AssertionError: expected:<[a.com, a.com(()), example.com]> but was:<[a
         at MarkdownParseTest.testSnippet2(MarkdownParseTest.java:72)
 ```
 
-Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, escribe why it would be a more involved change.
+Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 ?
 
-I think my code can handle the case of nested brackets and escaped quite well. However, for nested parentheses my code only account for a nested open parenthes with no closed one within a valid pair of parentheses. I believe accounting for a pair of parentheses within a pair of parentheses can be solved within 10 lines, as I only have to check the number of opened and closed parentheses after a valid brackets while keeping the oreder in mind using a stack.
+I think my code can handle the case of nested brackets and escaped brackets quite well. However, for nested parentheses my code only account for a nested open parenthes with no closed one within a valid pair of parentheses. I believe accounting for a pair of parentheses within a pair of parentheses can be solved within 10 lines, as I only have to check the number of opened and closed parentheses after a valid brackets while keeping the oreder in mind using a stack.
 
 ### Snippet \#3
 
@@ -208,7 +208,7 @@ java.lang.AssertionError: expected:<[https://ucsd-cse15l-w22.github.io/]> but wa
         at MarkdownParseTest.testSnippet3(MarkdownParseTest.java:79)
 ```
 
-Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
+Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 ?
 
 My implementaion checks every line by itself. Moreover, the position of ```"\n"``` can change the way markdown decides if the link is valid or not.  Therfore, I think fixing the issue for a having a link in multiple lines would be quite a long fix.
 
