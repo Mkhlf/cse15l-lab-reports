@@ -36,7 +36,7 @@ The `diff.txt` file was examined manually along with both of the `res.txt` files
 
 Test number 14 on line 92:
 
-![image](\lab-report-5-pics/test1.png)
+![image](lab-report-5-pics/test1.png)
 
 Markdown file :
 
@@ -83,7 +83,7 @@ Looking at the excpexted output, the provided implementation is incorrect in thi
 
 Test number 580 on line 1070:
 
-![image](\lab-report-5-pics/test2.png)
+![image](lab-report-5-pics/test2.png)
 
 Markdown file :
 
